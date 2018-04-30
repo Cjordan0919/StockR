@@ -1,0 +1,15 @@
+Package: StockR
+Type: Package
+Title: Predicts daily Stock Market Fluctuations for given stock symbols
+Version: 0.1.0
+Author: Connor Jordan <connorjordan@mail.usf.edu>
+Maintainer: Connor Jordan <connorjordan@mail.usf.edu>
+Description: This package helps predict whether a certain stock will increase or decrease tomorrow based off today's market value
+License: GPL-2
+Encoding: UTF-8
+LazyData: true
+Imports: 
+  quantmod,stats,xts
+Suggests:
+  knitr
+RoxygenNote: 6.0.1
